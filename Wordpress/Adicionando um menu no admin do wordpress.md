@@ -1,3 +1,5 @@
+## Adicionando um menu no admin do wordpress
+
 Dentro da pasta do tema, crie a pasta **admin**, dentro dessa pasta crie um arquivo chamado **function-admin.php**
 
 Esse arquivo deve conter o seguinte código:
