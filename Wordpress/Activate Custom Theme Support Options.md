@@ -1,3 +1,5 @@
+## Activate Custom Theme Support Options
+
 ```
 register_setting('sunset_theme_support','post_formats','sunset_post_formats_callback');
 add_settings_field('post-formats','Post Formats','sunset_post_formats','alecaddd_sunset_theme','sunset-theme-options');
