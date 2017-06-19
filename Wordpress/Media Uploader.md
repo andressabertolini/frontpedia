@@ -11,6 +11,8 @@ wp_enqueue_script('sunset-admin-script');
 //esse id (primeiro parametro) usamos aqui pra chamar 
 ```
 
+## Media Uploader
+
 Dentro de function-admin.php
 ```
 register_setting('sunset-settings-group','profile_picture');
