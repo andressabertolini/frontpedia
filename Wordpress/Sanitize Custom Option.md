@@ -1,3 +1,5 @@
+## Sanitize Custom Option
+
 ```
 register_setting('sunset-settings-group','twitter_handler','sanitize_twitter_handler');
 ```
