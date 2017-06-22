@@ -1,8 +1,8 @@
-## Adicionando um menu no admin do wordpress
+## Adding a menu in the wordpress admin
 
-Dentro da pasta do tema, crie a pasta **admin**, dentro dessa pasta crie um arquivo chamado **function-admin.php**
+Inside the theme folder, create the **admin** folder, inside that folder create a file called **function-admin.php**
 
-Esse arquivo deve conter o seguinte código:
+This file should contain the following code:
 
 ```jsx
 function theme_add_menu_page(){
