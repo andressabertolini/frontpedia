@@ -4,41 +4,41 @@ Inside the theme folder, create the **admin** folder, inside that folder create 
 
 This file should contain the following code:
 
-```jsx
+```
 function theme_add_menu_page(){
-	//Adiciona o menu no admin
+	//Add menu in admin
 	add_menu_page(
-		'<title></title>', //Mas nem aparece pq o de baixo sobreescreve
-		'Nome no menu em si', //Tem que ser curto pra não cortar no responsivo
+		'<title></title>', //But it doesn't even seem like the one below overwrites
+		'Nome no menu em si', //It has to be short so it doesn't get cut off in the responsive
 		'manage_options', //permissão de admin
-		'theme_menu_id', //id pra saber tudo que vai pertencer nesse menu aqui
-		'theme_create_page', //função de callback, pq o wp é cheio disso
-		'icone', //o padrão é a engrenagem
-		110 //ordem do menu
+		'theme_menu_id', //id to know everything that will belong in this menu here
+		'theme_create_page', //callback function, because wp is full of it
+		'icone', //default is gear
+		110 //menu order
 	);
 	
-	//Adiciona um submenu -> Esse primeiro é necessário pra colocar um nome diferente na lista de submenus
+	//Add a submenu -> This first one is needed to put a different name in the submenu list
 	add_submenu_page(
-		'theme_menu_id', //id do menu
-		'<title></title>', //Fica na abinha do navegador
-		'Nome no menu em si', //Tem que ser curto pra não cortar no responsivo
-		'manage_options', //permissão de admin
-		'theme_menu_id', //Esse era pra ser o id próprio do submenu, mas como vamos sobreescrever, esse é igual ao do menu de cima, repete mesmo esse parametro duas vezes aqui nessa função
-		'theme_create_page' //A função também repete igualzinho a do add_menu_page
+		'theme_menu_id', // Menu ID
+		'<title></title>', // This is the browser tab title
+		'Menu Name', // Should be short to prevent truncation in responsive layouts
+		'manage_options', // Admin permission
+		'theme_menu_id', // This is supposed to be the submenu's unique ID, but since we're overwriting, it should match the main menu ID. This parameter is repeated twice in this function.
+		'theme_create_page' // The callback function, repeated exactly as in add_menu_page
 	);
-}
+	}
 
-add_action('admin_menu','theme_add_menu_page'); //chama toda essa função que escrevemos
+	add_action('admin_menu', 'theme_add_menu_page'); // Calls the function we just wrote
 
-//Atenção, temos que criar as funções que chamamos nos callbacks mesmo que estejam vazias, senão dá erro
+	// Note: We must create the functions referenced in the callbacks, even if they're empty. Otherwise, it will throw an error.
 
-function theme_create_page(){
-	//Pode estar vazia, mas se a gente chamar um echo com um htmlzinho, vai aparecer dentro da página
-	echo '<h1>Theme Options</h1>';
-}
+	function theme_create_page() {
+		// It can be empty, but if we use an echo with some HTML, it will appear on the page.
+		echo '<h1>Theme Options</h1>';
+	}
 ```
+And don't forget, none of this will work unless you call this entire function in functions.php:
 
-Agora, nada disso vai funcionar se você não chamar essa função toda no functions.php
 ```
-require get_template_directory(). '/admin/function-admin.php';
+require get_template_directory() . '/admin/function-admin.php';
 ```
