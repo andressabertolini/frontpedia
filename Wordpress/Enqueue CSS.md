@@ -1,6 +1,6 @@
 ## Enqueue CSS
 
-criar arquivo enqueue.php na pasta inc
+create enqueue.php file in inc folder
 
 ```
 <?php
