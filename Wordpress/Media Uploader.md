@@ -1,8 +1,8 @@
-Criar um arquivo theme-admin.js na pasta js
+Create a theme-admin.js file in the js folder
 
-Dentro do arquivo de enqueue.php
+Inside the enqueue.php file
 
-```jsx
+```
 wp_register_script('sunset-admin-script', get_template_directory_uri().'/js/sunset.admin.js', array('jquery'), '1.0.0',true);
 //o array('jquery') indica que precisamos de jquery pra esse arquivo funcionar
 //o true no final indica que queremos incluir no footer
@@ -13,7 +13,7 @@ wp_enqueue_script('sunset-admin-script');
 
 ## Media Uploader
 
-Dentro de function-admin.php
+Inside function-admin.php
 ```
 register_setting('sunset-settings-group','profile_picture');
 add_settings_field('sidebar-profile-picture', 'Profile Picture', 'sunset_sidebar_profile_picture', 'alecaddd_sunset','sunset-sidebar-options');
