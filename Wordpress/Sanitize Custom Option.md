@@ -12,7 +12,7 @@ function sanitize_twitter_handler($input){
 }
 ```
 
-Colocar uma descrição:
+Enter a description:
 ```
 function sunset_sidebar_twitter(){
 		$twitter = esc_attr(get_option('twitter_handler'));
