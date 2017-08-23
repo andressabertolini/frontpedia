@@ -18,7 +18,7 @@ function sunset_post_formats(){
     $output = '';
     foreach($formats as $format){
 	    $checked = ( @$options[$format] == 1 ? 'checked' : '' );
-			//esse @ é pra fazer if o array existir 
+			//this @ is to do if the array exists
 	    $output .= '<label><input type="checkbox" id="'.$format.'" name="post_formats['.$format.']" value="1" '.$checked.' />'.$format.'</label><br>';
     }
     echo $output;
