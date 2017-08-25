@@ -4,11 +4,11 @@ Inside the enqueue.php file
 
 ```
 wp_register_script('sunset-admin-script', get_template_directory_uri().'/js/sunset.admin.js', array('jquery'), '1.0.0',true);
-//o array('jquery') indica que precisamos de jquery pra esse arquivo funcionar
-//o true no final indica que queremos incluir no footer
-wp_enqueue_media(); //chama os scripts pra usar o media uploader
+//the array('jquery') indicates that we need jquery for this file to work
+//true at the end indicates that we want to include it in the footer
+wp_enqueue_media(); //call the scripts to use the media uploader
 wp_enqueue_script('sunset-admin-script');
-//esse id (primeiro parametro) usamos aqui pra chamar 
+//this id (first parameter) we use here to call
 ```
 
 ## Media Uploader
