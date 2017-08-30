@@ -6,7 +6,7 @@ register_setting('sunset-settings-group','twitter_handler','sanitize_twitter_han
 
 ```
 function sanitize_twitter_handler($input){
-		$output = sanitize_text_field($input); //converte simbolos para utf-8 entities 
+		$output = sanitize_text_field($input); //convert symbols to utf-8 entities
 		$output = str_replace('@','', $output);
 		return $output;
 }
