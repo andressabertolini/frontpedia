@@ -1,3 +1,5 @@
+## Delete a commit from the middle of the project
+
 Digite no terminal:
 
 ```jsx
