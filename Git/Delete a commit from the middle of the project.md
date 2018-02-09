@@ -1,19 +1,19 @@
 ## Delete a commit from the middle of the project
 
-Digite no terminal:
+Type in the terminal:
 
-```jsx
+```
 git rebase -i HEAD~5
 ```
 
-Isso vai pegar os 5 últimos commits, menos o atual e vai mostrar numa lista
+This will get the last 5 commits, minus the current one, and will show them in a list.
 
-Dai você vai navegar pelas setas pra cima e pra baixo nessa lista, e vai digitar d e dar enter naqueles que você quiser apagar. Não pode apagar todos da lista, tem que deixar pelo menos 1
+Then you will navigate through the list using the up and down arrows, and type d and press enter on the ones you want to delete. You can't delete all of them from the list, you have to leave at least 1.
 
-Quando terminar, digite :wq e enter
+When you're done, type :wq and enter.
 
-Dai pra forçar pra mandar pro repositório (ele vai querer puxar os commits antigos de volta, use:
+Then to force it to be sent to the repository (it will want to pull the old commits back, use:
 
-```jsx
+```
 git push —force origin mater
 ```
