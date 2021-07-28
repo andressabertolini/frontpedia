@@ -1,3 +1,5 @@
+## Scaffolding
+
 any additional directories included in a theme are stripped out upon upload to Shopify
 
 Assets
