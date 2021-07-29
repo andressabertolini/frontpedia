@@ -1,3 +1,5 @@
+## How to install Shopify Theme Kit
+
 Shopify Theme Kit - Linha de comando usada para fazer temas shopify
 
 MAC OS
