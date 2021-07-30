@@ -1,18 +1,18 @@
 ## How to install Shopify Theme Kit
 
-Shopify Theme Kit - Linha de comando usada para fazer temas shopify
+Shopify Theme Kit - Command-line tool for managing Shopify themes
 
 MAC OS
 
-Como instalar:
+How to install:
 
-- Primeiro instalar o home brew
+- First, install Homebrew. Run the following command in your terminal:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-- Com o Homebrew, instalar o shopify theme kit
+- With Homebrew installed, install the Shopify Theme Kit:
 ```
 brew install themekit
 ```
