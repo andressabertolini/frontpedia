@@ -1,4 +1,4 @@
-## Editando o tema localmente e fazendo o push das alteraçõ
+## Editando o tema localmente e fazendo o push das alterações
 
 Ignore rules: Pra não sobrescrever o esquema de cores
 
