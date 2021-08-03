@@ -1,3 +1,5 @@
+## Editando o tema localmente e fazendo o push das alteraçõ
+
 Ignore rules: Pra não sobrescrever o esquema de cores
 
 config > setting_data.json
