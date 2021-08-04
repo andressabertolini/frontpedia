@@ -1,16 +1,16 @@
-## Editando o tema localmente e fazendo o push das alterações
+## Editing the theme locally and pushing the changes
 
 Ignore rules: Pra não sobrescrever o esquema de cores
 
 config > setting_data.json
 
-Vá para config.yml
+Go to config.yml
 
 ignore_files:
 
 - config/settings_data.json
 
-Na pasta do tema, rode:
+Na pasta do tema, run:
 
 ```
 theme watch
