@@ -1,6 +1,6 @@
 ## Editing the theme locally and pushing the changes
 
-Ignore rules: Pra não sobrescrever o esquema de cores
+Ignore rules: To avoid overwriting the color scheme
 
 config > setting_data.json
 
@@ -10,7 +10,7 @@ ignore_files:
 
 - config/settings_data.json
 
-Na pasta do tema, run:
+In the theme folder, run:
 
 ```
 theme watch
