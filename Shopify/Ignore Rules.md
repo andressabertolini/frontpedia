@@ -1,3 +1,5 @@
+## Ignore rules
+
 Ignore rules: Pra não sobrescrever o esquema de cores
 
 config > setting_data.json
