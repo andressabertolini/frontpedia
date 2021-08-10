@@ -1,10 +1,10 @@
 ## Ignore rules
 
-Ignore rules: Pra não sobrescrever o esquema de cores
+Ignore rules: To avoid overwriting the color scheme
 
 config > setting_data.json
 
-Vá para config.yml
+Go to config.yml
 
 ignore_files:
 
