@@ -1,3 +1,5 @@
+## Connecting the store with Shopify Theme Kit
+
 Acesse o Shopify Partners
 
 https://partners.shopify.com/
