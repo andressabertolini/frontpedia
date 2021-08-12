@@ -1,24 +1,24 @@
 ## Connecting the store with Shopify Theme Kit
 
-Acesse o Shopify Partners
+Access Shopify Partners
 
 https://partners.shopify.com/
 
-- Crie uma loja de teste e certifique-se que tem um tema instalado
+- Create a test store and make sure you have a theme installed
 
 ---
 
-### Conseguindo o password:
+### Getting the password:
 
-Crie um custom app:
+Create a custom app:
 
-Clicando em Apps no menu e depois Private Apps
+Clicking on Apps in the menu and then Private Apps
 
-- nome: teste-themekit
+- name: test-themekit
 - email
-- Mudar permissão: Themes > Read and Write
+- Change permission: Themes > Read and Write
 
-Irá gerar o API Key e API Password (Shopify API credentials - Para conectar ao Shopify)
+It will generate the API Key and API Password (Shopify API credentials - To connect to Shopify)
 
 password: shppa_****************
 
