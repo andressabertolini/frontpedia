@@ -44,9 +44,9 @@ You can also get it from the url when you click to customize the theme.
 
 ---
 
-### De fato conectando as pontas:
+### Indeed connecting the dots:
 
-- - - ATENÇÃO: RODE ESSE COMANDO DENTRO DE UMA PASTA AONDE VAI FICAR O TEMA - - 
+- - - ATTENTION: RUN THIS COMMAND INSIDE A FOLDER WHERE THE THEME WILL BE - - 
 
 theme get --password=[your-api-password] --store=[your-store.myshopify.com] --themeid=[your-theme-id]
 
@@ -54,4 +54,4 @@ theme get --password=shppa_**************** --store=andressatests.myshopify.com 
 
 theme watch 
 
-Para syncar as mudanças
+To sync the changes
