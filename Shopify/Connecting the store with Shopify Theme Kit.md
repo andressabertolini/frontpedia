@@ -24,21 +24,21 @@ password: shppa_****************
 
 ---
 
-### Conseguindo o Store id:
+### Getting the Store id:
 
-pegar a url da loja sem http
+get store url without http
 
 andressatests.myshopify.com
 
 ---
 
-### Conseguindo o Theme id:
+### Getting the Theme id:
 
 Command > Get
 
 theme get --list --password=you_api_password --store=your_store_id
 
-Também da pra pegar da url quando aperta pra customizar o tema
+You can also get it from the url when you click to customize the theme.
 
 123936145598
 
