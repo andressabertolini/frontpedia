@@ -23,3 +23,15 @@
 <h2 class="sold-out">Sorry - sold out</h2>
 
 {% endif %}
+
+---
+
+## Loja
+
+<div>{{ shop.description }}</div>
+
+shop.enabled_payment_type**s**
+
+- s no final indica um loop
+
+--- 
