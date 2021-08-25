@@ -35,3 +35,17 @@ shop.enabled_payment_type**s**
 - s no final indica um loop
 
 --- 
+
+## Filtros
+
+<p class="date-time">
+
+{{ article.published_at | date : '%d %B %Y' }}
+
+</p>
+
+achar o caminho do asset
+
+{{ 'style.css' | asset_url | stylesheet_tag }}
+
+---
