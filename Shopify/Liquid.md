@@ -49,3 +49,19 @@ achar o caminho do asset
 {{ 'style.css' | asset_url | stylesheet_tag }}
 
 ---
+
+## Carrinho
+
+### Itens no carrinho
+
+{% if cart.item_count > 0 %}
+
+<p>You have {{ cart.item_count }}
+
+{{ cart.item_count | pluralize: 'item', 'itens' }} in your cart</p>
+
+{% else %}
+
+<p>There's nothing in your cart :( Why not have a <a href="/products">look at our product range</a></p>
+
+{% endif %}
