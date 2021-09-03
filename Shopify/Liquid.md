@@ -1,19 +1,24 @@
 ## Produto
 
-### Loop pelas imagens do produto
+### Loop through product images
 
+```
 {% for image in product.images %}
 
 <img src="{{ image |  img_url: 'medium' }}">
 
 {% endfor %}
+```
 
-### Exibir o título do produto
+### Display the product title
 
+```
 <h2>{{product.title}}</h2>
+```
 
-### Se o produto está disponível
+### Check if the product is available
 
+```
 {% if product.available %}
 
 <h2>Price: $99.99</h2>
@@ -23,37 +28,43 @@
 <h2 class="sold-out">Sorry - sold out</h2>
 
 {% endif %}
+```
 
 ---
 
-## Loja
+## Store
 
+```
 <div>{{ shop.description }}</div>
+```
 
 shop.enabled_payment_type**s**
 
-- s no final indica um loop
+The "s" at the end indicates a loop
 
 --- 
 
-## Filtros
-
+## Filters
+```
 <p class="date-time">
 
 {{ article.published_at | date : '%d %B %Y' }}
 
 </p>
+```
 
-achar o caminho do asset
-
+Find the asset path:
+```
 {{ 'style.css' | asset_url | stylesheet_tag }}
+```
 
 ---
 
-## Carrinho
+## Cart
 
-### Itens no carrinho
+### Items in the cart
 
+```
 {% if cart.item_count > 0 %}
 
 <p>You have {{ cart.item_count }}
@@ -65,3 +76,4 @@ achar o caminho do asset
 <p>There's nothing in your cart :( Why not have a <a href="/products">look at our product range</a></p>
 
 {% endif %}
+```
