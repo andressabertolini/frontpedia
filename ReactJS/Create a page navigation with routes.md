@@ -2,6 +2,11 @@
 
 [Create an app](https://github.com/andressabertolini/frontpedia/blob/main/ReactJS/Create%20an%20app.md)
 
+After creating the app, access the directory
+```
+cd app-name
+```
+
 Install the router package
 ```
 npm install react-router-dom
@@ -30,7 +35,13 @@ const Navigation = () => {
 export default Navigation;
 ```
 
-And the other components will be the pages, create the “pages” folder inside the “src” folder. Create the files “Home.js”, “About.js” and “Contact.js” inside this folder
+> [!NOTE]
+> NavLink is imported in {} because it's a named export
+
+> [!NOTE]
+> Exact ensures that the "Home" link will only be activated when the URL is exactly "https://yoursite.com/", and not on URLs that contain the path / followed by other subroutes (such as /about or /contact). Without exact, the NavLink to "Home" would be activated on any URL that starts with /, which would cause the link to not activate correctly on internal pages.
+
+The other components will be the pages, create the “pages” folder inside the “src” folder. Create the files “Home.js”, “About.js” and “Contact.js” inside this folder
 
 Home.js
 ```
@@ -74,7 +85,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 > [!NOTE]
 > Here, we are importing three main components from react-router-dom: BrowserRouter, Routes, and Route. In the part, "BrowserRouter as Router", we are simply creating an alias (Router) for the BrowserRouter.
 
-We will need to import all the components we created, we can add comments /*layout*/ and /*pages*/ to better organize the project:
+We will need to import all the components we created, we can add comments /* layout */ and /* pages */ to better organize the project:
 
 ```
 /* Layout */
@@ -85,7 +96,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 ```
 
-Finally, we will create the routes for our menu with the <Navigation /> component inside the App() function.
+Finally, we will create the routes for our menu with the <Navigation /> component inside the App() function. (You can delete the default content)
 ```
 <Router>
   <Navigation />
@@ -127,5 +138,8 @@ function App() {
 export default App;
 ```
 
-Now just run the project with the npm start command
+Now just run the project and we're done
+```
+npm start
+```
 
