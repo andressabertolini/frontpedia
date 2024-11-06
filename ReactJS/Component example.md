@@ -1,3 +1,4 @@
+## Component Example
 ```
 const Home = () => {
     return(
