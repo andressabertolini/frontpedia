@@ -1,4 +1,4 @@
-## Create a page navigation with routes
+## Page navigation with routes
 
 [Create an app](https://github.com/andressabertolini/frontpedia/blob/main/ReactJS/Create%20an%20app.md)
 
