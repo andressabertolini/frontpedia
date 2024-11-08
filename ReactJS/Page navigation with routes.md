@@ -17,7 +17,7 @@ npm install react-router-dom
 
 First, let's create the components. We'll create the navigation component. Inside the "src" folder, create a folder called "layouts"
 
-Inside the layouts folder, create a file called Navigation.js
+Inside the layouts folder, create a file called **Navigation.js**
 
 The structure of this component is as follows:
 
