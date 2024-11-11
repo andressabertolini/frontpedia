@@ -1,3 +1,4 @@
+```
 const usersList = [
   'user1',
   'user2',
@@ -22,3 +23,4 @@ function App() {
 }
 
 export default App;
+```
