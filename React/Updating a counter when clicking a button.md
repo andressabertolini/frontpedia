@@ -1,6 +1,6 @@
 ## Updating a counter when clicking a button
 
-[Create an app](https://github.com/andressabertolini/frontpedia/blob/main/ReactJS/Create%20an%20app.md)
+[Create an app](https://github.com/andressabertolini/frontpedia/blob/main/React/Create%20an%20app.md)
 
 After creating the app, access the directory
 ```
