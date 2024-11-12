@@ -2,7 +2,7 @@
 
 React - library
 
-Components - functions that return jsx
+Components - JavaScript functions that return markup
 
 Hooks - functions that return js variants. Handle state
 
@@ -12,4 +12,4 @@ SPA - single page application. There's only one page and the javascript changes 
 
 SSR - Server side rendering
 
-tsx - mix of html and typescript
+JSX - mix of html and typescript
