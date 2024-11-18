@@ -4,6 +4,8 @@ State - data that changes
 
 useState is the react hook that you use to manipulate state
 
+To “remember” things, components use state
+
 ```
 import { useState } from 'react';
 
