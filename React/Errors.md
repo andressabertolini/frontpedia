@@ -1,6 +1,8 @@
-**ERR_OSSL_EVP_UNSUPPORTED**
+**ERR_OSSL_EVP_UNSUPPORTED** 
+```
 export NODE_OPTIONS=--openssl-legacy-provider
 npm start
+```
 
 **ERR_PACKAGE_PATH_NOT_EXPORTED**
 Install sass
