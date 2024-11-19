@@ -21,3 +21,5 @@ Fragments - <> and </>
 Spread operator - 
 
 Redux - An state manager
+
+TypeScript - TypeScript is a way to add type definitions to JavaScript codebases
