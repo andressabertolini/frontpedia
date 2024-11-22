@@ -3,7 +3,7 @@ Create a folder in src and name it 'context'. In this folder, create the fila 'G
 ```
 import { createContext } from 'react';
 
-export const GlobalContext = createContext(null);
+export const GlobalContext = createContext();
 ```
 
 Create the variables for the modes
