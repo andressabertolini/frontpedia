@@ -14,6 +14,10 @@ Remove the node-sass line from package.json
 Example:
 ```
 "node-sass": "^4.0.0"
+
+"node-sass": {
+  "optional": true
+},
 ```
 
 Delete the node_modules folter
