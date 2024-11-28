@@ -28,8 +28,6 @@ A JSX element is a combination of JavaScript code and HTML
 
 Fragments - <> and </>
 
-Spread operator - 
-
 Redux - An state manager
 
 TypeScript - TypeScript is a way to add type definitions to JavaScript codebases
