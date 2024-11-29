@@ -36,8 +36,12 @@ Reinstall
 npm install
 ```
 
+---
+
 **Blank page when deploying**
 In package.json, delete what's in homepage and replace with a dot
 ```
   "homepage": "."
 ```
+
+If it doesn't exists, add it below "name"

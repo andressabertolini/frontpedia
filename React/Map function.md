@@ -24,3 +24,6 @@ function App() {
 
 export default App;
 ```
+
+> [!NOTE]
+> Basic structure: m.map(item => item)
