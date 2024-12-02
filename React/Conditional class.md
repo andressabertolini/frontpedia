@@ -1,5 +1,5 @@
 ## Conditional class
 
 ```
-className={(total < 0 ? "color-red":"color-green") + " box mb-30"}
+className={(total < 0 ? "class1":"class2") + " class3"}
 ```
