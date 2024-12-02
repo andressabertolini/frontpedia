@@ -1,6 +1,6 @@
 ## Dictionary
 
-React - A JavaScript library
+React - A JavaScript library for building interfaces
 
 Components - In React, a component is a piece of reusable code that represents a part of a user interface. Components are used to render, manage, and update the UI elements in your application.
 JavaScript functions that return markup
