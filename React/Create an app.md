@@ -1,5 +1,7 @@
 ## Create an App
 
+You need to have node.js installed. If you don't, go to https://nodejs.org/, download and install it
+
 Run the following command in the terminal
 
 ```
