@@ -8,10 +8,9 @@ Create the function to fetch the API
 const fetchAPI = () => {
   fetch(API_URL)
       .then(res => res.json())
-      .then(result => {
-          console.log(result);
-      }
-  )
+      .then(data => {
+          console.log(data);
+      })
 }
 ```
 
