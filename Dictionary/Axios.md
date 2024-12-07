@@ -1,0 +1,1 @@
+axios is a popular JavaScript library for making HTTP requests, such as GET, POST, PUT, DELETE, etc. It is often used in web projects to communicate with APIs or backend servers.
