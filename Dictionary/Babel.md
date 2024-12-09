@@ -1,0 +1,1 @@
+The .babelrc file is a configuration for Babel, a tool widely used in JavaScript projects (like Next.js) to transpile modern code (ES6+ or TypeScript) into a version more compatible with older browsers or environments.
