@@ -42,3 +42,13 @@ useEffect(() => {
 "This useEffect is hooked to the count"
 
 The cleanup function will run before the function
+
+---
+
+useEffect without a dependency array: re-runs on every render or re-render of the component
+
+useEffect(() => {}, []);
+Empty dependency array: This code causes the effect to run only once, right after the component is mounted.
+
+useEffect(() => {});
+No dependency array: The effect will run every time the component renders or re-renders.
