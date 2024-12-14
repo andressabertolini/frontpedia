@@ -54,3 +54,35 @@ const fetchAPI = async () => {
   console.log(data);
 }
 ```
+
+---
+
+Errors
+
+Network error
+```
+import { useState } from "react";
+const [error, setError] = useState();
+
+.catch(err => {
+  console.log(err.message);
+  setError(err.message);
+})
+```
+
+Data error
+```
+.then(res => {
+  if(!res.ok){
+    throw Error('Could not fetch the data for that resource');
+  }
+})
+```
+---
+
+Clean the error for the next request
+```
+.then(data => {
+  setError(null);
+})
+```

@@ -11,7 +11,7 @@ Insert the JSON data
 }
 ```
 
-Run the command
+Open another terminal and run the command
 ```
 npx json-server --watch data/db.json --port 8000
 ```
