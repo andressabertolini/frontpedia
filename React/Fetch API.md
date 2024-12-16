@@ -86,3 +86,25 @@ Clean the error for the next request
   setError(null);
 })
 ```
+
+POST
+```
+const [title, setTitle] = useState('');
+const [body, setBody] = useState('');
+const [author, setAuthor] = useState('Author 1');
+
+const data = { title, body, author }
+
+fetch('http://api.url',{
+  method: 'POST',
+  headers: {"Content-Type": "application/json"},
+  body: JSON.stringfy(data)
+})
+```
+
+DELETE
+```
+fetch('http://api.url/' + id, {
+  method: 'DELETE'
+})
+```

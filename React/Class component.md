@@ -23,3 +23,18 @@ class MyComponent extends Component {
 
 export default MyComponent;
 ```
+
+Lifecycle
+- Mounting
+componentWillMount()
+render() - first time
+componentDidMount()
+
+- Updating
+getDerivedStateFromProps()
+getSnapshotBeforeUpdate()
+componentDidUpdate() - side effects
+render() - updates the component
+
+- Unmounting
+componentWillUnmount() - cleanup
