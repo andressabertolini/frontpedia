@@ -26,3 +26,5 @@ Virtual DOM = VDOM - React search for differences when state changes and do the 
 Is a Javascript object
 
 Only updates the section of the page where the change was made. Not the entire page
+
+Promise - Object which represents the completion of an asynchronous operation and its return value
