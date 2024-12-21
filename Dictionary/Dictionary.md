@@ -28,3 +28,5 @@ Is a Javascript object
 Only updates the section of the page where the change was made. Not the entire page
 
 Promise - Object which represents the completion of an asynchronous operation and its return value
+
+A reducer in Redux is a pure function that describes how the application state should be updated in response to an action.
