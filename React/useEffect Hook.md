@@ -1,3 +1,27 @@
+## QUICK REFERENCE ##
+```
+import { useEffect } from "react";
+
+const Home = () => {
+    const someFunction = () => {
+        //function
+    }
+
+    useEffect(() => {
+        someFunction();
+    },[]);
+
+    return(
+        <div></div>
+    );
+}
+
+export default Home;
+```
+
+
+---
+
 ## UseEffect Hook
 
 A hook is a function that return JS variants and handle state.
